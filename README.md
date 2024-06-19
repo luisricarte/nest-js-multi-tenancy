@@ -75,3 +75,6 @@ Nest is [MIT licensed](LICENSE).
 
 
 Libs: jwt, bcrypt
+
+nest g resource
+nest g guard (intercepta a req antes de chegar no controller )
