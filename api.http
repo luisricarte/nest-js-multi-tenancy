@@ -10,3 +10,14 @@ Content-Type: application/json
     "email": "luis@email.com",
     "password": "1233!"
 }
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Luis Duds",
+    "email": "luis@email.com",
+    "password": "1233!"
+}
