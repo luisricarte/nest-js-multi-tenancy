@@ -19,6 +19,16 @@ Content-Type: application/json
 
 {
     "name": "Duds, o parceiro",
+    "email": "duds@partnerr.com",
+    "password": "L111111@"
+}
+
+### Login
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
     "email": "duds@partner.com",
     "password": "L111111@"
 }
