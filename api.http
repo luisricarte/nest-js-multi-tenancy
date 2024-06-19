@@ -43,7 +43,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiO
     "name": "partner 55115" 
 }
 
-### 
+### Find All partners
 
 GET http://localhost:3000/partners
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiOiJTdHVkLCBvIGR1ZHMiLCJlbWFpbCI6InN0dWRAcGFhcnRuZXIiLCJyb2xlcyI6WyJQQVJUTkVSIl0sImNyZWF0ZWRBdCI6IjIwMjQtMDYtMTlUMjE6MjE6NTUuMTY1WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDYtMTlUMjE6MjE6NTUuMTY1WiIsImlhdCI6MTcxODgzMjExOSwiZXhwIjoxNzE4ODQyMTE5fQ.e8C0LEPID8KIXlnsFeBPi13dhVXEyI7fYvvhkQXlBNw
@@ -59,4 +59,10 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiO
     "description": "Evento geek",
     "date": "2024-06-19T20:33:22.60"
 }
+
+### Find All Events
+
+GET http://localhost:3000/events
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiOiJTdHVkLCBvIGR1ZHMiLCJlbWFpbCI6InN0dWRAcGFhcnRuZXIiLCJyb2xlcyI6WyJQQVJUTkVSIl0sImNyZWF0ZWRBdCI6IjIwMjQtMDYtMTlUMjE6MjE6NTUuMTY1WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDYtMTlUMjE6MjE6NTUuMTY1WiIsImlhdCI6MTcxODgzMjExOSwiZXhwIjoxNzE4ODQyMTE5fQ.e8C0LEPID8KIXlnsFeBPi13dhVXEyI7fYvvhkQXlBNw
+
 
