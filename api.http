@@ -50,7 +50,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiO
 
 ### Create event
 
-POST http://localhost:3000/event
+POST http://localhost:3000/events
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsIm5hbWUiOiJTdHVkLCBvIGR1ZHMiLCJlbWFpbCI6InN0dWRAcGFhcnRuZXIiLCJyb2xlcyI6WyJQQVJUTkVSIl0sImNyZWF0ZWRBdCI6IjIwMjQtMDYtMTlUMjE6MjE6NTUuMTY1WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDYtMTlUMjE6MjE6NTUuMTY1WiIsImlhdCI6MTcxODgzMjExOSwiZXhwIjoxNzE4ODQyMTE5fQ.e8C0LEPID8KIXlnsFeBPi13dhVXEyI7fYvvhkQXlBNw
 
